@@ -17,6 +17,10 @@ const Routers = function ({ history, app }) {
       models: () => [import('./models/dashboard')],
       component: () => import('./routes/dashboard/'),
     }, {
+      path: '/food',
+      models: () => [import('./models/food')],
+      component: () => import('./routes/food/'),
+    }, {
       path: '/user',
       models: () => [import('./models/user')],
       component: () => import('./routes/user/'),

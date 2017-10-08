@@ -18,10 +18,17 @@ let database = [
   {
     id: '7',
     bpid: '1',
-    name: 'Posts',
+    name: 'Food',
     icon: 'shopping-cart',
-    route: '/post',
+    route: '/food',
   },
+  // {
+  //   id: '7',
+  //   bpid: '1',
+  //   name: 'Posts',
+  //   icon: 'shopping-cart',
+  //   route: '/post',
+  // },
   {
     id: '21',
     mpid: '-1',

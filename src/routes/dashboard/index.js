@@ -4,7 +4,7 @@ import { connect } from 'dva'
 import { Row, Col, Card } from 'antd'
 import { color } from 'utils'
 import { Page } from 'components'
-import { NumberCard, Quote, Sales, Weather, RecentSales, Comments, Completed, Browser, Cpu, User } from './components'
+import { NumberCard, Quote, Sales, Weather, RecentSales, Comments, Completed, Browser, Cpu, User, Food } from './components'
 import styles from './index.less'
 
 const bodyStyle = {
